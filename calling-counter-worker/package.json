@@ -1,0 +1,17 @@
+{
+  "name": "calling-counter-worker",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev --port 9001",
+    "start": "wrangler dev --port 9001",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.1.0",
+    "@cloudflare/workers-types": "^4.20240405.0",
+    "typescript": "^5.0.4",
+    "vitest": "1.3.0",
+    "wrangler": "3.50.0"
+  }
+}
